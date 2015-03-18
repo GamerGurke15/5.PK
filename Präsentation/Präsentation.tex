@@ -1,0 +1,132 @@
+\iffalse
+TODO:
+
+- Magneten kaufen: http://www.amazon.de/Singende-Magnetsteine-Rattle-Snake-2er/dp/B00511MMY0/ref=sr_1_2?ie=UTF8&qid=1426673724&sr=8-2&keywords=zwitscher+magnete
+
+- Datum
+
+- Chirp center
+
+- Simulation alt tab
+
+Ablauf:
+1. Experiment + Erklärung + Simulation
+2. Analyse erklären
+	a. Chirp, Peak, PeakPeak
+	b. Trennung von Frequenzen
+		1. Chirp Frequenz (wann die Peaks kommen)
+		2. Peak Frequenz (die Frequenz eines einzelnen Peaks)
+3. Analyse
+	a. Chirp Analyse
+		1. Periodendauer ((Zeitabstände) (1/f)) --> e Funktion, Faktor wegen damped oszilation
+		2. Amplitude über Zeit siehe oben, gleicher Faktor (Ungenauigkeiten)
+		3. Gleichsetzung (Seite 10)
+			a. Ansätze von den einzelnen Faktoren
+			b. Ergebnisse
+		4. Verallgemeinerung
+			a. why
+			b. Energie Ansatz
+			c. Graph
+	b. Peak Analyse
+		1. Frequenz eines Peaks (siehe Nacharbeitung)
+\fi
+
+
+\documentclass[11pt]{beamer}
+\usetheme{Warsaw}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{media9}
+\usepackage{hyperref}
+\usepackage{lastpage}
+\usepackage{calc}
+\author{Leonard Hackel und Niklas Schelten}
+\title{5. PK - Ball Sound}
+\subtitle{Wie entwickelt sich der Ton, der beim Zusammenstoß zweier Metallkugeln entsteht?}
+\setbeamertemplate{navigation symbols}{}
+\logo{\includegraphics[scale=0.028]{Bilder/Logo.png}} 
+\institute{Herder Oberschule Berlin} 
+\date{\today}
+\subject{Physik} 
+
+\newcommand{\multiplelines}[2][c]{\begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+
+%Frame numbers
+\setbeamertemplate{footline}
+{%
+\begin{beamercolorbox}[wd=0.5\textwidth,ht=3ex,dp=1.5ex,leftskip=.5em,rightskip=.5em]{author in head/foot}%
+\usebeamerfont{author in head/foot}%
+\insertframenumber\ von \inserttotalframenumber\hfill\insertshortauthor%
+\end{beamercolorbox}%
+\vspace*{-4.5ex}\hspace*{0.5\textwidth}%
+\begin{beamercolorbox}[wd=0.5\textwidth,ht=3ex,dp=1.5ex,left,leftskip=.5em]{title in head/foot}%
+\usebeamerfont{title in head/foot}%
+\insertshorttitle%
+\end{beamercolorbox}%
+}
+%-------------------------------------------------------------------------------------------------
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\tableofcontents
+\end{frame}
+
+%-------------------------------------------------------------------------------------------------
+\section{Das Experiment}
+\subsection{Vorführung}
+\begin{frame}{Experiment}
+
+\end{frame}
+
+\subsection{Zusammensetzung des Tons}
+\begin{frame}{\only<1-2>{Chirp}\only<3-4>{Peak}\only<5>{PeakPeak}}
+\center{
+\only<1>{\includemedia[addresource=Daten/Chirp.mp3, flashvars={source=Daten/Chirp.mp3&autoPlay=true}]
+	{\includegraphics[scale=0.2]{Bilder/Chirp1.PNG}}{APlayer.swf}}
+\only<2>{\includegraphics[scale=0.2]{Bilder/Chirp2.PNG}}
+\only<3>{\includegraphics[scale=0.2]{Bilder/Peak1.PNG}}
+\only<4>{\includegraphics[scale=0.2]{Bilder/Peak2.PNG}}
+\only<5>{\includegraphics[scale=0.2]{Bilder/PeakPeak.PNG}}
+}
+\end{frame}
+
+\begin{frame}{Frequenzen}
+\begin{itemize}
+\item<1-> Chirp Frequenz
+	\begin{itemize}
+	\item<2->[$\rightarrow$] Anzahl der Peaks pro Sekunde
+	\end{itemize}
+\item<3-> Peak Frequenz
+	\begin{itemize}
+	\item<4->[$\rightarrow$] Anzahl der PeakPeaks pro Sekunde
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsection{Simulation}
+\begin{frame}{Simulation}
+\center
+Alt Tab
+\end{frame}
+%-------------------------------------------------------------------------------------------------
+\section{Physikalische Analyse}
+\begin{frame}
+
+\end{frame}
+\subsection{Chirp}
+\begin{frame}
+
+\end{frame}
+\subsection{Peak}
+\begin{frame}
+
+\end{frame}
+\end{document}

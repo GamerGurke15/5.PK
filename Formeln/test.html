@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<title>tex texample</title>
+</head>
+<body>
+
+$$\delta_i=\delta_1\cdot b^{i-1}$$
+$$t_{ges}=\sum^\infty_{i=1}\delta_i=\sum^\infty_{i=1}\delta_1\cdot b^{i-1}=\delta_1\frac{1}{1-b}$$
+
+$$t_n=\sum^n_{i=1}\delta_i=\sum^\infty_{i=1}\delta_i-\sum^\infty_{i=n+1}\delta_i=t_{ges}-\delta_1\sum^\infty_{i=n+1}b^{i-1}=t_{ges}-\delta_1\sum^\infty_{i=1}b^{n+i-1}$$
+$$=t_{ges}-\delta_1\cdot b^n\sum^\infty_{i=1}b^{i-1}=t_{ges}-t_{ges}\cdot b^n=t_{ges}(1-b^n)$$
+$$\Leftrightarrow\frac{t_n}{t_{ges}}=1-b^n\Leftrightarrow n=\frac{\log\left(1-\frac{t_n}{t_{ges}}\right)}{\log b}$$
+
+</body>
+</html>
