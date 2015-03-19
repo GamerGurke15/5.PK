@@ -1,7 +1,9 @@
 #Lockfiles
 *~*
 
-Präsentation/Daten/
+Präsentation/Daten/*_data
+Präsentation/Daten/*.aup
+Präsentation/Daten/*-wav
 
 #tex dateien
 Präsentation/Präsentation.aux
