@@ -32,7 +32,7 @@ Ablauf:
 \fi
 
 
-\documentclass[11pt]{beamer}
+\documentclass[12pt]{beamer}
 \usetheme{Warsaw}
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
@@ -87,11 +87,11 @@ Ablauf:
 \begin{frame}{\only<1-2>{Chirp}\only<3-4>{Peak}\only<5>{PeakPeak}}
 \center{
 \only<1>{\includemedia[addresource=Daten/Chirp.mp3, flashvars={source=Daten/Chirp.mp3&autoPlay=true}]
-	{\includegraphics[scale=0.2]{Bilder/Chirp1.PNG}}{APlayer.swf}}
-\only<2>{\includegraphics[scale=0.2]{Bilder/Chirp2.PNG}}
-\only<3>{\includegraphics[scale=0.2]{Bilder/Peak1.PNG}}
-\only<4>{\includegraphics[scale=0.2]{Bilder/Peak2.PNG}}
-\only<5>{\includegraphics[scale=0.2]{Bilder/PeakPeak.PNG}}
+	{\includegraphics[scale=0.2]{Bilder/Chirp1.png}}{APlayer.swf}}
+\only<2>{\includegraphics[scale=0.2]{Bilder/Chirp2.png}}
+\only<3>{\includegraphics[scale=0.2]{Bilder/Peak1.png}}
+\only<4>{\includegraphics[scale=0.2]{Bilder/Peak2.png}}
+\only<5>{\includegraphics[scale=0.2]{Bilder/PeakPeak.png}}
 }
 \end{frame}
 
@@ -115,12 +115,81 @@ Alt Tab
 \end{frame}
 %-------------------------------------------------------------------------------------------------
 \section{Physikalische Analyse}
-\begin{frame}
-
-\end{frame}
 \subsection{Chirp}
-\begin{frame}
+\subsubsection{Physikalische Beschreibung des Tons}
 
+\begin{frame}{Periodendauer}%in 2 spalten
+\includegraphics[scale=0.2]{Bilder/Periodendauer.jpg}
+\begin{itemize}
+\item<2-> $\delta_n=\delta_1\cdot b^{n-1}$ mit $0\leq b<1$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Amplitude}%in 2 spalten
+\includegraphics[scale=0.2]{Bilder/Periodendauer.jpg}
+\begin{itemize}
+\item<2-> $y_n=a\cdot y_{n-1}$ mit $0\leq a<1$
+\item<3-> $\Leftrightarrow y_n=a^n\cdot y_0$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Gleichsetzung}
+\begin{itemize}
+\item<1-> beides nach $n$ umformen:
+	\begin{itemize}
+	\item<2->[$\rightarrow$] Periode: $n=\frac{\log\left(1-\frac{t_n}{t_{ges}}\right)}{\log b}$
+	\item<3->[$\rightarrow$] Amplitude: $n=\frac{\log\frac{y_n}{y_0}}{\log a}$
+	\end{itemize}
+\item<4-> Gleichsetzen und nach $y_n$ umformen:
+	\begin{itemize}
+	\item<5->[$\rightarrow$] $y_n=y_0\cdot\left(1-\frac{t_n}{t_{ges}}\right)^{\frac{\log a}{\log b}}$
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\subsubsection{Verallgemeinerung}
+\begin{frame}{Verallgemeinerung - warum}
+\begin{itemize}
+\item<1-> unterschiedliche rücktreibende Kräfte \only<5->{$\rightarrow$ Potenz des Weges}
+	\begin{itemize}
+	\item<2->[-] Gravitation \only<6->{$\rightarrow$ nahezu $s^0$}
+	\item<3->[-] Magnetkraft \only<7->{$\rightarrow$ $s^{-2}$ (homogen)}
+	\item<4->[-] Federkaft \only<8->{$\rightarrow$ $s^1$}
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Verallgemeinerung - Ansatz}
+\begin{itemize}
+\item<1-> $F=c\cdot s^a$
+\item<2->[$\rightarrow$] $E=\frac{c}{a+1}\cdot s^{a+1}$
+\item<3-> Schwingung zwischen dieser und kinetischer Energie
+	\begin{itemize}
+	\item<4->[$\rightarrow$] $\frac{m}{2}v^2+\frac{c}{a+1}\cdot s^{a+1}=konst$
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Verallgemeinerung - Ansatz}
+\begin{itemize}
+\item<1-> \textbf{Durch Ableiten:}
+\item<2->[ ] $\frac{m\cdot 2v\cdot \dot{v}}{2}+c\cdot s^a\cdot\dot{s}=0$
+\item<3->[$\Leftrightarrow$] $m\cdot \ddot{s}+c\cdot s^a=0$
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Verallgemeinerung - Nummerische Simulation}
+\begin{itemize}
+\item<1-> nicht-lineare Differentialgleichung
+\item<2-> In "`Simulation"'Energieverlust durch Abnahme von $v$ implementiert
+\item<3-> erste Nullstelle entspricht der Zeitspanne bis zum nächsten Peak
+\end{itemize}
+\end{frame}
+
+%jeden graphen einzeln anzeigen
+\begin{frame}{Verallgemeinerung - Nummerische Simulation}
+\center
+\includegraphics[scale=0.3]{Bilder/Diff'Gleichung.jpg}
 \end{frame}
 \subsection{Peak}
 \begin{frame}
