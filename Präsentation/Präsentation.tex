@@ -41,6 +41,7 @@ Ablauf:
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{media9}
+\usepackage{moresize}
 \author{Leonard Hackel und Niklas Schelten}
 \title{5. PK - Ball Sound}
 \subtitle{Wie entwickelt sich der Ton, der beim Zusammenstoß zweier Metallkugeln entsteht?}
@@ -118,19 +119,33 @@ Alt Tab
 \subsection{Chirp}
 \subsubsection{Physikalische Beschreibung des Tons}
 
-\begin{frame}{Periodendauer}%in 2 spalten
-\includegraphics[scale=0.2]{Bilder/Periodendauer.jpg}
-\begin{itemize}
-\item<2-> $\delta_n=\delta_1\cdot b^{n-1}$ mit $0\leq b<1$
-\end{itemize}
+\begin{frame}{Periodendauer}
+\begin{columns}
+\begin{column}{.67\textwidth}
+	\includegraphics[scale=0.3]{Bilder/Periodendauer.jpg}
+\end{column}
+\begin{column}{.33\textwidth}
+	\begin{itemize}
+	\item<2-> $\delta_n=\delta_1\cdot b^{n-1}$ mit $0\leq b<1$
+	\item[ ] \ %just for moving the line up ^_^
+	\end{itemize}
+\end{column}
+\end{columns}
 \end{frame}
 
-\begin{frame}{Amplitude}%in 2 spalten
-\includegraphics[scale=0.2]{Bilder/Periodendauer.jpg}
-\begin{itemize}
-\item<2-> $y_n=a\cdot y_{n-1}$ mit $0\leq a<1$
-\item<3-> $\Leftrightarrow y_n=a^n\cdot y_0$
-\end{itemize}
+\begin{frame}{Amplitude}
+\begin{columns}
+\begin{column}{.67\textwidth}
+	\includegraphics[scale=0.3]{Bilder/Amplitude.jpg}
+\end{column}
+\begin{column}{.33\textwidth}
+	\begin{itemize}
+	\item<2-> $y_n=a\cdot y_{n-1}$ mit $0\leq a<1$
+	\item<3-> $\Leftrightarrow y_n=a^n\cdot y_0$
+	\end{itemize}
+\end{column}
+\end{columns}
+	
 \end{frame}
 
 \begin{frame}{Gleichsetzung}
@@ -188,8 +203,9 @@ Alt Tab
 
 %jeden graphen einzeln anzeigen
 \begin{frame}{Verallgemeinerung - Nummerische Simulation}
-\center
-\includegraphics[scale=0.3]{Bilder/Diff'Gleichung.jpg}
+\only<1>{\includegraphics[scale=0.2]{Bilder/Diff'Gleichung(0).jpg}}
+\only<2>{\includegraphics[scale=0.2]{Bilder/Diff'Gleichung(01).jpg}}
+\only<3>{\includegraphics[scale=0.2]{Bilder/Diff'Gleichung(012).jpg}}
 \end{frame}
 \subsection{Peak}
 \begin{frame}

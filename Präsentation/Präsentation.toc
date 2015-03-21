@@ -1,4 +1,11 @@
-\beamer@endinputifotherversion {3.10pt}
+\beamer@endinputifotherversion {3.26pt}
 \select@language {german}
 \beamer@sectionintoc {1}{Das Experiment}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Vorf\IeC {\"u}hrung}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Zusammensetzung des Tons}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{Simulation}{13}{0}{1}
+\beamer@sectionintoc {2}{Physikalische Analyse}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Chirp}{14}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{1}{Physikalische Beschreibung des Tons}{14}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{2}{Verallgemeinerung}{24}{0}{2}
+\beamer@subsectionintoc {2}{2}{Peak}{45}{0}{2}
