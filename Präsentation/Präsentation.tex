@@ -42,6 +42,8 @@ Ablauf:
 \usepackage{graphicx}
 \usepackage{media9}
 \usepackage{moresize}
+\usepackage{hyperref}
+\usepackage{xfrac}
 \author{Leonard Hackel und Niklas Schelten}
 \title{5. PK - Ball Sound}
 \subtitle{Wie entwickelt sich der Ton, der beim Zusammenstoß zweier Metallkugeln entsteht?}
@@ -111,8 +113,7 @@ Ablauf:
 
 \subsection{Simulation}
 \begin{frame}{Simulation}
-\center
-Alt Tab
+\includegraphics[scale=0.5]{Bilder/Simulation.png}
 \end{frame}
 %-------------------------------------------------------------------------------------------------
 \section{Physikalische Analyse}
@@ -207,8 +208,57 @@ Alt Tab
 \only<2>{\includegraphics[scale=0.2]{Bilder/Diff'Gleichung(01).jpg}}
 \only<3>{\includegraphics[scale=0.2]{Bilder/Diff'Gleichung(012).jpg}}
 \end{frame}
-\subsection{Peak}
-\begin{frame}
 
+\subsection{Peak}
+\subsubsection{Frequenz}
+\begin{frame}{Frequenz}
+\begin{itemize}
+\item<1-> Peak Frequenz für jeden Peak gleich
+\item<2-> zwei Ursprünge:
+	\begin{itemize}
+	\item<3-> Eigenfrequenz der Kugeln
+	\item<4-> Frequenz zwischen den Kugeln
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Eigenfrequenz}
+\begin{itemize}
+\item<1-> stehende Welle in den Kugeln
+	\begin{itemize}
+	\item<2->[$\rightarrow$] $f=\frac{c}{\lambda}=\frac{5170\sfrac{m}{s}}{8\cdot 0,017m}\approx 38kHz$
+	\item<3->[$\rightarrow$] nicht hörbar
+	\end{itemize}
+\item<4-> andere Wellenlängen messbar aber nicht hörbar
+\end{itemize}
+\end{frame}
+
+\begin{frame}{"`Auftreff Frequenz"'}
+\begin{itemize}
+\item<1-> Arbeit von K. Mehraby, H Khadem-hosseini Beheshti und M. Poursina
+	\begin{itemize}
+	\item<2->[$\rightarrow$] $f=\frac{76,1}{r}Hz=\frac{76,1}{0,017}Hz\approx 4476Hz$
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Frequenzanalyse}
+\begin{columns}
+\begin{column}{.6\textwidth}
+\includegraphics[scale=0.28]{Bilder/Frequenzen.jpg}
+\end{column}
+\begin{column}{.4\textwidth}
+\begin{itemize}
+\item<2-> Erste Frequenz $4406$ "`Auftreff Frequenz"'
+\item<3-> Zweite Frequenz 39kHz Eigenfrequenz
+\item[ ] \ 
+\end{itemize}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}
+\center
+{\HUGE Vielen Dank für Ihre Aufmerksamkeit}
 \end{frame}
 \end{document}

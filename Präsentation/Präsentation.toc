@@ -9,3 +9,4 @@
 \beamer@subsubsectionintoc {2}{1}{1}{Physikalische Beschreibung des Tons}{14}{0}{2}
 \beamer@subsubsectionintoc {2}{1}{2}{Verallgemeinerung}{24}{0}{2}
 \beamer@subsectionintoc {2}{2}{Peak}{45}{0}{2}
+\beamer@subsubsectionintoc {2}{2}{1}{Frequenz}{45}{0}{2}
