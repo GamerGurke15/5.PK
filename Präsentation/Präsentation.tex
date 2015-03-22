@@ -120,45 +120,52 @@ Ablauf:
 \subsection{Chirp}
 \subsubsection{Physikalische Beschreibung des Tons}
 
-\begin{frame}{Periodendauer}
+\begin{frame}{Periodendauer über Peaks}
 \begin{columns}
-\begin{column}{.67\textwidth}
+\begin{column}{.65\textwidth}
 	\includegraphics[scale=0.3]{Bilder/Periodendauer.jpg}
 \end{column}
-\begin{column}{.33\textwidth}
+\begin{column}{.35\textwidth}
 	\begin{itemize}
-	\item<2-> $\delta_n=\delta_1\cdot b^{n-1}$ mit $0\leq b<1$
+	\item<2-> $\delta_n=\delta_1\cdot b^{n-1}$
+		\begin{itemize}
+		\item $0\leq b<1$
+		\item $n$: Anzahl der Peaks
+		\item $\delta$: Periode
+		\end{itemize}
 	\item[ ] \ %just for moving the line up ^_^
 	\end{itemize}
 \end{column}
 \end{columns}
 \end{frame}
 
-\begin{frame}{Amplitude}
+\begin{frame}{Amplitude über Peaks}
 \begin{columns}
-\begin{column}{.67\textwidth}
+\begin{column}{.65\textwidth}
 	\includegraphics[scale=0.3]{Bilder/Amplitude.jpg}
 \end{column}
-\begin{column}{.33\textwidth}
+\begin{column}{.35\textwidth}
 	\begin{itemize}
-	\item<2-> $y_n=a\cdot y_{n-1}$ mit $0\leq a<1$
-	\item<3-> $\Leftrightarrow y_n=a^n\cdot y_0$
+	\item<2-> $y_n=a\cdot y_{n-1}$
+		\begin{itemize}
+		\item $0\leq a<1$
+		\item $n$: Anzahl der Peaks
+		\item $y$: Amplitude
+		\end{itemize}
+	\item<3->[$\Rightarrow$] $y_n=y_0\cdot a^n$
 	\end{itemize}
 \end{column}
 \end{columns}
 	
 \end{frame}
 
-\begin{frame}{Gleichsetzung}
+\begin{frame}{Amplitude in Abhängigkeit von der Periode}
 \begin{itemize}
-\item<1-> beides nach $n$ umformen:
+\item Beide Gleichungen nach $n$ umformen, gleichsetzen \only<2>{und nach $y_n$ umformen:}
 	\begin{itemize}
-	\item<2->[$\rightarrow$] Periode: $n=\frac{\log\left(1-\frac{t_n}{t_{ges}}\right)}{\log b}$
-	\item<3->[$\rightarrow$] Amplitude: $n=\frac{\log\frac{y_n}{y_0}}{\log a}$
-	\end{itemize}
-\item<4-> Gleichsetzen und nach $y_n$ umformen:
-	\begin{itemize}
-	\item<5->[$\rightarrow$] $y_n=y_0\cdot\left(1-\frac{t_n}{t_{ges}}\right)^{\frac{\log a}{\log b}}$
+	\item[$\rightarrow$]
+		\only<1>{$\frac{\log\frac{y_n}{y_0}}{\log a}=\frac{\log\left(1-\frac{t_n}{t_{ges}}\right)}{\log b}$}
+		\only<2>{$y_n=y_0\cdot\left(1-\frac{t_n}{t_{ges}}\right)^{\frac{\log a}{\log b}}$}
 	\end{itemize}
 \end{itemize}
 \end{frame}
@@ -177,28 +184,12 @@ Ablauf:
 
 \begin{frame}{Verallgemeinerung - Ansatz}
 \begin{itemize}
-\item<1-> $F=c\cdot s^a$
-\item<2->[$\rightarrow$] $E=\frac{c}{a+1}\cdot s^{a+1}$
-\item<3-> Schwingung zwischen dieser und kinetischer Energie
+\item<1-> Energie bei maximaler Entfernung: $E=\frac{c}{a+1}\cdot s^{a+1}$
+\item<2-> Energie beim Zusammenstoß: $E=\frac{m}{2}v^2$
+\item<3-> Schwingung zwischen dieses Energien
 	\begin{itemize}
-	\item<4->[$\rightarrow$] $\frac{m}{2}v^2+\frac{c}{a+1}\cdot s^{a+1}=konst$
+	\item<3->[$\rightarrow$] $m\cdot \ddot{s}+c\cdot s^a=0$
 	\end{itemize}
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Verallgemeinerung - Ansatz}
-\begin{itemize}
-\item<1-> \textbf{Durch Ableiten:}
-\item<2->[ ] $\frac{m\cdot 2v\cdot \dot{v}}{2}+c\cdot s^a\cdot\dot{s}=0$
-\item<3->[$\Leftrightarrow$] $m\cdot \ddot{s}+c\cdot s^a=0$
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Verallgemeinerung - Nummerische Simulation}
-\begin{itemize}
-\item<1-> nicht-lineare Differentialgleichung
-\item<2-> In "`Simulation"'Energieverlust durch Abnahme von $v$ implementiert
-\item<3-> erste Nullstelle entspricht der Zeitspanne bis zum nächsten Peak
 \end{itemize}
 \end{frame}
 
@@ -229,7 +220,6 @@ Ablauf:
 	\item<2->[$\rightarrow$] $f=\frac{c}{\lambda}=\frac{5170\sfrac{m}{s}}{8\cdot 0,017m}\approx 38kHz$
 	\item<3->[$\rightarrow$] nicht hörbar
 	\end{itemize}
-\item<4-> andere Wellenlängen messbar aber nicht hörbar
 \end{itemize}
 \end{frame}
 
