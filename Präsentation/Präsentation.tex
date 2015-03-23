@@ -9,6 +9,11 @@ TODO:
 
 - Simulation alt tab
 
+alternative themes:
+JuanLesPins
+AnnArbor
+Ilmenau
+
 Ablauf:
 1. Experiment + Erklärung + Simulation
 2. Analyse erklären
@@ -33,7 +38,7 @@ Ablauf:
 
 
 \documentclass[12pt]{beamer}
-\usetheme{Warsaw}
+\usetheme{JuanLesPins}
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 \usepackage{amsmath}
@@ -122,18 +127,19 @@ Ablauf:
 
 \begin{frame}{Periodendauer über Peaks}
 \begin{columns}
-\begin{column}{.65\textwidth}
-	\includegraphics[scale=0.3]{Bilder/Periodendauer.jpg}
+\begin{column}{.55\textwidth}
+	\includegraphics[scale=0.265]{Bilder/Periodendauer.jpg}
 \end{column}
-\begin{column}{.35\textwidth}
+\begin{column}{.45\textwidth}
 	\begin{itemize}
+	\item<1-> $\delta_{fit}(x)=43,27\cdot 0,82^x$
 	\item<2-> $\delta_n=\delta_1\cdot b^{n-1}$
 		\begin{itemize}
 		\item $0\leq b<1$
 		\item $n$: Anzahl der Peaks
 		\item $\delta$: Periode
 		\end{itemize}
-	\item[ ] \ %just for moving the line up ^_^
+	\item[ ] \ %just for moving the lines up ^_^
 	\end{itemize}
 \end{column}
 \end{columns}
@@ -141,11 +147,12 @@ Ablauf:
 
 \begin{frame}{Amplitude über Peaks}
 \begin{columns}
-\begin{column}{.65\textwidth}
-	\includegraphics[scale=0.3]{Bilder/Amplitude.jpg}
+\begin{column}{.55\textwidth}
+	\includegraphics[scale=0.26]{Bilder/Amplitude.jpg}
 \end{column}
-\begin{column}{.35\textwidth}
+\begin{column}{.45\textwidth}
 	\begin{itemize}
+	\item<1-> $y_{fit}(x)=1,26\cdot 0,80^x$
 	\item<2-> $y_n=a\cdot y_{n-1}$
 		\begin{itemize}
 		\item $0\leq a<1$
@@ -171,30 +178,36 @@ Ablauf:
 \end{frame}
 
 \subsubsection{Verallgemeinerung}
-\begin{frame}{Verallgemeinerung - warum}
-\begin{itemize}
-\item<1-> unterschiedliche rücktreibende Kräfte \only<5->{$\rightarrow$ Potenz des Weges}
+\begin{frame}{Verallgemeinerung - Was haben wir davon?}
+\begin{columns}
+\begin{column}{0.6\textwidth}
 	\begin{itemize}
-	\item<2->[-] Gravitation \only<6->{$\rightarrow$ nahezu $s^0$}
-	\item<3->[-] Magnetkraft \only<7->{$\rightarrow$ $s^{-2}$ (homogen)}
-	\item<4->[-] Federkaft \only<8->{$\rightarrow$ $s^1$}
+	\item<1-> unterschiedliche rücktreibende Kräfte \only<5->{$\rightarrow$ Potenz des Weges}
+		\begin{itemize}
+		\item<2->[-] Gravitation \only<6->{$\rightarrow$ nahezu $s^0$}
+		\item<3->[-] Magnetkraft \only<7->{$\rightarrow$ $s^{-2}$}
+		\item<4->[-] Federkaft \only<8->{$\rightarrow$ $s^1$}
+		\end{itemize}
 	\end{itemize}
-\end{itemize}
+\end{column}
+\begin{column}{0.4\textwidth}
+	\only<3>{\includegraphics[scale=0.1]{Bilder/Magnete.jpg}}
+	\only<4>{\includegraphics[scale=0.1]{Bilder/Feder.jpg}}
+\end{column}
+\end{columns}
 \end{frame}
 
-\begin{frame}{Verallgemeinerung - Ansatz}
+\begin{frame}{Verallgemeinerung - Differentialgleichung}
 \begin{itemize}
-\item<1-> Energie bei maximaler Entfernung: $E=\frac{c}{a+1}\cdot s^{a+1}$
-\item<2-> Energie beim Zusammenstoß: $E=\frac{m}{2}v^2$
-\item<3-> Schwingung zwischen dieses Energien
+\item<1-> folgende Differentialgleichung als Ergebnis:
 	\begin{itemize}
-	\item<3->[$\rightarrow$] $m\cdot \ddot{s}+c\cdot s^a=0$
+	\item<1-> $m\cdot \ddot{s}+c\cdot s^a=0$
 	\end{itemize}
 \end{itemize}
 \end{frame}
 
 %jeden graphen einzeln anzeigen
-\begin{frame}{Verallgemeinerung - Nummerische Simulation}
+\begin{frame}{Verallgemeinerung - Ergebnis}
 \only<1>{\includegraphics[scale=0.2]{Bilder/Diff'Gleichung(0).jpg}}
 \only<2>{\includegraphics[scale=0.2]{Bilder/Diff'Gleichung(01).jpg}}
 \only<3>{\includegraphics[scale=0.2]{Bilder/Diff'Gleichung(012).jpg}}
@@ -204,11 +217,11 @@ Ablauf:
 \subsubsection{Frequenz}
 \begin{frame}{Frequenz}
 \begin{itemize}
-\item<1-> Peak Frequenz für jeden Peak gleich
+\item<1-> Peak-Frequenz für jeden Peak gleich
 \item<2-> zwei Ursprünge:
 	\begin{itemize}
-	\item<3-> Eigenfrequenz der Kugeln
-	\item<4-> Frequenz zwischen den Kugeln
+	\item<2-> Eigenfrequenz der Kugeln
+	\item<3-> Frequenz zwischen den Kugeln
 	\end{itemize}
 \end{itemize}
 \end{frame}
@@ -217,7 +230,7 @@ Ablauf:
 \begin{itemize}
 \item<1-> stehende Welle in den Kugeln
 	\begin{itemize}
-	\item<2->[$\rightarrow$] $f=\frac{c}{\lambda}=\frac{5170\sfrac{m}{s}}{8\cdot 0,017m}\approx 38kHz$
+	\item<2->[$\rightarrow$] $f=\frac{c}{2n\cdot\lambda}=\frac{5170\sfrac{m}{s}}{8\cdot 0,017m}\approx 38kHz$ mit $n\in \mathbb{N}$
 	\item<3->[$\rightarrow$] nicht hörbar
 	\end{itemize}
 \end{itemize}
