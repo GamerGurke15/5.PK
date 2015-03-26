@@ -1,0 +1,22 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+.\\
+$$\Leftrightarrow y_n=y_0\cdot\left(b^n\right)^{\frac{\log a}{\log b}}$$
+$$t_n=t_{max}\cdot\left(1-b^n\right)\Leftrightarrow\frac{t_n}{t_{max}}=1-b^n$$
+$$h_0(t)=-\frac{g}{2}\cdot t^2+v_0\cdot t+0=t\left(v_0-\frac{g}{2}\cdot t\right)$$
+$$t_{0,1}=0$$
+$$t_{0,2}=\frac{2v_0}{g}$$
+$$v_1=\alpha\cdot v_0$$
+$$\Rightarrow t_{1,2}=\frac{2\cdot v_1}{g}$$
+$$m\cdot g\cdot h=\frac{m}{2}\cdot v^2(Amplitude)$$
+$$h=\frac{v^2}{2\cdot g}=\frac{(\alpha\cdot v_{n-1})^2}{2\cdot g}$$
+$$h_{n+1}=\alpha^2\cdot h_n$$
+$$\frac{2\cdot v_0}{g}$$
+$$\frac{\log \alpha^2}{\log \alpha}=2$$
+\end{document}

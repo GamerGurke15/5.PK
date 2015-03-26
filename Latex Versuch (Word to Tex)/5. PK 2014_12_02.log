@@ -1,0 +1,573 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2014.6.11)  2 DEC 2014 21:00
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"5. PK 2014_12_02.tex"
+(./5. PK 2014_12_02.tex
+LaTeX2e <2011/06/27>
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks14
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks15
+\ex@=\dimen103
+))
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks16
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks17
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks18
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(./5. PK 2014_12_02.aux)
+\openout1 = `"5. PK 2014_12_02.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+
+Package epstopdf Warning: Drivers other than `pdftex.def' are not supported.
+
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+ (e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+
+(e:/Programme/TexLive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Missing character: There is no „ in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+File: "Grafiken/Bild - 0.1.png" Graphic file (type eps)
+
+<"Grafiken/Bild - 0.1.png">
+Overfull \hbox (152.9155pt too wide) in paragraph at lines 54--55
+[] 
+ []
+
+[1
+
+{e:/Programme/TexLive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+Non-PDF special ignored!]
+Missing character: There is no „ in font cmr10!
+Missing character: There is no Ü in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+ [2]
+File: "Grafiken/Aufbau - 2.1.jpg" Graphic file (type eps)
+ <"Grafiken/Aufbau - 2.1.jpg">
+Overfull \hbox (103.7909pt too wide) in paragraph at lines 130--131
+[] 
+ []
+
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ü in font cmr10!
+[3
+Non-PDF special ignored!]
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+
+Overfull \hbox (1.73665pt too wide) in paragraph at lines 148--149
+\OT1/cmr/m/n/10 Dadurch er-hal-ten wir die fol-gen-den bei-den Graphen, die wir
+ weiter un-ten genauer
+ []
+
+
+LaTeX Warning: File `"Graphen/Amplitude über Peaks expFit - 3.1.JPG"' not found
+ on input line 152.
+
+File: "Graphen/Amplitude über Peaks expFit - 3.1.JPG" Graphic file (type eps)
+<"Graphen/Amplitude über Peaks expFit - 3.1.JPG">
+Overfull \hbox (109.58006pt too wide) in paragraph at lines 152--153
+[] 
+ []
+
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ß in font cmr10!
+
+Overfull \hbox (5.13956pt too wide) in paragraph at lines 162--163
+\OT1/cmr/m/n/10 gehen wir von einer ex-po-nen-tiellen Funk-tion aus, da wir die
+ Funk-tion als gedmpfte
+ []
+
+[4
+Non-PDF special ignored!]
+
+LaTeX Warning: File `"Zeitabstände über Peaks expFit - 4.1.JPG"' not found on i
+nput line 166.
+
+File: "Zeitabstände über Peaks expFit - 4.1.JPG" Graphic file (type eps)
+<"Zeitabstände über Peaks expFit - 4.1.JPG">
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+
+Overfull \hbox (183.06624pt too wide) in paragraph at lines 166--167
+[]\OT1/cmr/m/n/10 4.1
+ []
+
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+[5
+Non-PDF special ignored!]
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+ [6]
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+File: "Graphen/Amplitude über Zeit linFit - 6.1.JPG" Graphic file (type eps)
+ <"Graphen/Amplitude über Zeit linFit - 6.1.JPG">
+Overfull \hbox (92.24037pt too wide) in paragraph at lines 204--205
+[] 
+ []
+
+[7]
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no „ in font cmr10!
+ [8
+Non-PDF special ignored!]
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no Ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ß in font cmr10!
+ [9]
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ü in font cmr10!
+File: "Graphen/Diff'gleichung Graphen - 9.1.JPG" Graphic file (type eps)
+ <"Graphen/Diff'gleichung Graphen - 9.1.JPG">
+Overfull \hbox (84.28162pt too wide) in paragraph at lines 259--260
+[] 
+ []
+
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+
+Overfull \hbox (11.26329pt too wide) in paragraph at lines 280--280
+[]\OT1/cmr/m/n/10 Periode| 
+ []
+
+
+Overfull \hbox (0.54628pt too wide) in paragraph at lines 280--280
+[]\OT1/cmr/m/n/10 101| 
+ []
+
+
+Overfull \hbox (0.54628pt too wide) in paragraph at lines 280--280
+[]\OT1/cmr/m/n/10 133| 
+ []
+
+
+Overfull \hbox (0.54628pt too wide) in paragraph at lines 280--280
+[]\OT1/cmr/m/n/10 201| 
+ []
+
+
+Overfull \hbox (0.54628pt too wide) in paragraph at lines 280--280
+[]\OT1/cmr/m/n/10 250| 
+ []
+
+
+Overfull \hbox (0.54628pt too wide) in paragraph at lines 280--280
+[]\OT1/cmr/m/n/10 301| 
+ []
+
+
+Overfull \hbox (0.54628pt too wide) in paragraph at lines 280--280
+[]\OT1/cmr/m/n/10 400| 
+ []
+
+
+Overfull \hbox (0.54628pt too wide) in paragraph at lines 280--280
+[]\OT1/cmr/m/n/10 999| 
+ []
+
+
+Overfull \hbox (179.849pt too wide) in paragraph at lines 277--282
+[][] 
+ []
+
+[10
+Non-PDF special ignored!]
+Missing character: There is no ä in font cmr10!
+Missing character: There is no „ in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+File: "Grafiken/Simulation - 10.1.PNG" Graphic file (type eps)
+ <"Grafiken/Simulation - 10.1.PNG">
+Overfull \hbox (114.65508pt too wide) in paragraph at lines 311--312
+[] 
+ []
+
+[11
+Non-PDF special ignored!]
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+
+Overfull \hbox (1.72737pt too wide) in paragraph at lines 317--318
+\OT1/cmr/m/n/10 Geschwindigkeit aufeinan-der zu be-we-gen. Sobald sie sich berh
+ren oder berschnei-
+ []
+
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ö in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ß in font cmr10!
+Missing character: There is no ä in font cmr10!
+[12]
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ü in font cmr10!
+Missing character: There is no ä in font cmr10!
+Missing character: There is no ß in font cmr10!
+
+Overfull \hbox (14.62852pt too wide) in paragraph at lines 367--368
+[]\OT1/cmr/m/n/10 http://kleinteileversand.de/Produkte[]Reinartz/Kugeln/Kugeln-
+Neu.jpg
+ []
+
+Missing character: There is no ü in font cmr10!
+
+LaTeX Warning: Reference `GrindEQ__30_01_14_' on page 13 undefined on input lin
+e 372.
+
+Missing character: There is no ä in font cmr10!
+
+Overfull \hbox (16.19977pt too wide) in paragraph at lines 374--375
+[]\OT1/cmr/m/n/10 Metzler Physik, J. Grehn, J. Krause, 4. Au-flage, S.116 (gedm
+pfte Schwingung) 
+ []
+
+
+Overfull \hbox (216.91786pt too wide) in paragraph at lines 376--377
+[]\OT1/cmr/m/n/10 http://www.ld-lidactic.de/software/524221de/Content/Experimen
+tExamples/Physics/Mechanics/VelocitySoundSolids.htm
+ []
+
+
+Overfull \hbox (5.51631pt too wide) in paragraph at lines 378--379
+[]\OT1/cmr/m/n/10 http://www.christian-doppler.com/CD[]FONDS/WELLEN.HTM (30.01.
+14
+ []
+
+[13] (./5. PK 2014_12_02.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1873 strings out of 493315
+ 24926 string characters out of 6137015
+ 85981 words of memory out of 5000000
+ 5306 multiletter control sequences out of 15000+600000
+ 5993 words of font info for 24 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 37i,11n,26p,1028b,144s stack positions out of 5000i,500n,10000p,200000b,80000s
+<e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.p
+fb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/c
+mex7.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mmi10.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi5.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi7.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr5.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr7.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy5.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb><e:/Programme/TexLive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti10.pfb>
+Output written on "5. PK 2014_12_02.pdf" (13 pages, 161205 bytes).
+PDF statistics:
+ 99 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

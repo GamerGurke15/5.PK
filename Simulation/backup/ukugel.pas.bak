@@ -1,0 +1,17 @@
+unit uKugel;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type TKugel = class
+  Geschwindigkeit, xKoordinate: Double;
+end;
+
+implementation
+
+end.
+

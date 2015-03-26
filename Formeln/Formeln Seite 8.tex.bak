@@ -1,0 +1,16 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+$F=c\cdot s^a$
+\vspace*{20pt}\\
+$\frac{m}{2}\cdot v^2+\frac{c}{a+1}\cdot s^{a+1}=konst.$
+\vspace*{20pt}\\
+$\frac{m\cdot 2v\cdot\dot v}{2}+c\cdot s^a\cdot\dot s=0$
+\vspace*{20pt}\\
+$m\cdot \overset{\textbf{..}}s+c\cdot s^a=0$
+\end{document}
